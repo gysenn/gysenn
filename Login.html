@@ -6,28 +6,30 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login Page</title>
     <link rel="stylesheet" href="assets/css/Login.css">
+    <link rel="stylesheet" href="assets/css/color.css">
 </head>
 
 <body>
     <div class="container">
+        <div class="title">
+            <h1>Login</h1>
+        </div>
         <div class="login-form">
             <form>
-                <div class="title">
-                    <h1>Login</h1>
+                <div class="input-box">
+                    <input type="email" placeholder="Email" class="input_email" required />
                 </div>
                 <div class="input-box">
-                    <input type="email" placeholder="Email" required />
-                </div>
-                <div class="input-box">
-                    <input type="password" placeholder="Password" required />
+                    <input type="password" placeholder="Password" class="input_password" required />
                 </div>
                 <div class="input-button">
                     <input type="submit" value="Login" />
                 </div>
-                <div class="form-link">
-                    <span>Don't have an account? <a href="Sign_up.html" class="signup-link">Signup</a></span>
-                </div>
+              
             </form>
+        </div>
+        <div class="form-link">
+            <span>Don't have an account? <a href="Sign_up.html" class="signup-link">Signup</a></span>
         </div>
     </div>
 </body>
