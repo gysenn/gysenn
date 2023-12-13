@@ -1,0 +1,10 @@
+@media (prefers-color-scheme: light) {
+    :root {
+      --text: #0c0c0d;
+      --background: #e8e7ef;
+      --primary: #1c1263;
+      --secondary: #958cd9;
+      --accent: #3726b5;
+      --white:  white;
+    }
+  }
